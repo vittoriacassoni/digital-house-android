@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LoginActivity</string>
+    <string name="sign_up"><u>SignUp</u></string>
+    <string name="meuTexto"><u>Com Underline</u></string>
+    <string name="foobar">FOOBAR</string>
+</resources>
