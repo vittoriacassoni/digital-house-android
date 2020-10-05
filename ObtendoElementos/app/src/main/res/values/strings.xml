@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ObtendoElementos</string>
+    <string name="resultado_nome"><b>%s</b></string>
+    <string name="resultado_salario"><b>R$ %.2f</b></string>
+    <string name="nome_label">Nome</string>
+    <string name="temperatura_label">Temperatura em C°</string>
+    <string name="horas_label">Horas trabalhadas</string>
+    <string name="valor_label">Valor da hora</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30sp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_label"
+        android:textSize="@dimen/labelTextSize"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/editNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:hint="Digite seu nome"
+        android:backgroundTint="@color/colorBlack"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/btnMostrarResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttonBackground"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/buttonTextSize"
+        android:textAllCaps="false"
+        android:layout_marginTop="30sp"
+        android:layout_marginHorizontal="100sp"
+        android:layout_gravity="center"
+        android:text="Exibir"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meu nome é "
+        android:layout_marginTop="80sp"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/resultadoSize"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/resultadoSize"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
