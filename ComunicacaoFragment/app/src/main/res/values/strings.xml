@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ComunicacaoFragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="n_o_tem_nada_aqui">Não tem nada aqui</string>
+    <string name="nome">Nome</string>
+    <string name="idade">Idade</string>
+    <string name="ano_de_nascimento">Ano de nascimento</string>
+</resources>
