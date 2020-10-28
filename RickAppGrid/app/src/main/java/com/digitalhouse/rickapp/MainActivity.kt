@@ -1,5 +1,6 @@
 package com.digitalhouse.rickapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -27,6 +28,14 @@ class MainActivity : AppCompatActivity() {
 
                 var adapterRick = AdapterRick(personagens) {
                     toast?.cancel()
+
+                    var intent = Intent(this@MainActivity, DetalheActivity::class.java)
+                    intent.putExtra("IMAGEM", it.imagemUrl)
+                    intent.putExtra("NOME", it.nome)
+                    intent.putExtra("GENERO", it.genero)
+                    intent.putExtra("PLANETA", it.localizacao.nome)
+
+                    startActivity(intent)
 
                     toast = Toast.makeText(this@MainActivity, it.nome, Toast.LENGTH_LONG)
                     toast?.show()
